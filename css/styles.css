@@ -39,6 +39,7 @@ main {
 }
 
 .preco-total {
+    position: absolute;
     background-color: yellow;
     width: 300px;
     height: 40px;
@@ -50,4 +51,13 @@ main {
     background-color: blue;
     width: 90px;
     height: 50px;
+    margin-top: 40px;
+}
+
+.container-btns-respostas {
+    background-color: green;
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    margin-top: 90px;
 }
