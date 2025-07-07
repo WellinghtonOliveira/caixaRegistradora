@@ -10,14 +10,12 @@ body {
     vertical-align: middle;
 }
 
-main {
+.container {
     border: 2px solid;
     width: 500px;
+    min-height: 550px;
     height: auto;
     margin: auto;
-}
-
-.container {
     text-align: center;
     padding: 10px;
 }
@@ -58,6 +56,27 @@ main {
     background-color: green;
     position: absolute;
     width: 400px;
-    height: 200px;
+    height: 300px;
     margin-top: 90px;
+}
+
+.container-btns {
+    background-color: purple;
+    width: 100px;
+    height: 100px;
+}
+
+.container-btns div {
+    width: 10px;
+    height: 10px;
+    padding: 5px;
+    margin: 5px;
+    background-color: black;
+}
+
+.mudancas {
+    background-color: bisque;
+    width: 150px;
+    height: 80%;
+
 }
