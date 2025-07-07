@@ -13,7 +13,7 @@ body {
 .container {
     border: 2px solid;
     width: 500px;
-    min-height: 550px;
+    min-height: 600px;
     height: auto;
     margin: auto;
     text-align: center;
@@ -62,15 +62,16 @@ body {
 
 .container-btns {
     background-color: purple;
-    width: 100px;
-    height: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    place-items: center;
+    width: 80px;
+    height: 80px;
 }
 
 .container-btns div {
-    width: 10px;
-    height: 10px;
-    padding: 5px;
-    margin: 5px;
+    width: 15px;
+    height: 15px;
     background-color: black;
 }
 
@@ -78,5 +79,20 @@ body {
     background-color: bisque;
     width: 150px;
     height: 80%;
+}
 
+.container-gaveta {
+    background-color: violet;
+    position: absolute;
+    width: 400px;
+    min-height: 50px;
+    margin-top: 400px;
+    
+}
+
+.gaveta {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
 }
