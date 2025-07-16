@@ -31,6 +31,7 @@ body {
 .caixa {
     background-color: red;
     position: relative;
+    margin-top: 30px;
 }
 
 .preco-total {
@@ -52,6 +53,9 @@ body {
 .container-btns-respostas {
     background-color: green;
     position: absolute;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
     width: 400px;
     height: 300px;
     margin-top: 90px;
@@ -62,8 +66,9 @@ body {
     display: grid;
     grid-template-columns: repeat(3, auto);
     place-items: center;
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
+    padding: 5px;
 }
 
 .container-btns div {
@@ -74,22 +79,24 @@ body {
 
 .mudancas {
     background-color: bisque;
-    width: 150px;
-    height: 80%;
+    width: 250px;
+    height: 100%;
 }
 
 .container-gaveta {
     background-color: violet;
     position: absolute;
+    display: flex;
     width: 400px;
     min-height: 50px;
-    margin-top: 400px;
-    
+    margin-top: 393px;
 }
 
 .gaveta {
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
     background-color: black;
     border-radius: 50%;
+    margin: auto;
+    vertical-align: middle;
 }
